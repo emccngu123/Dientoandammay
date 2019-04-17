@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    color: #333;
+    line-height: 1.254;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+a:hover, a:visited {
+    text-decoration: underline;
+}
+
+div {
+    display: block;
+}
+
+.container {
+    position: relative;
+    left: 0;
+    width: 100%;
+}
+
+/*==Menu==*/
+.usermenu {
+    background: #88b77b;
+    text-align: right;
+    color: #fff;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 20px 0 20px;
+    margin: 0 auto;
+}
+
+.header-main {
+    padding: 0.5em 2em 0em 2em;
+    color: #ff6c00;
+    font-weight: bold;
+    overflow: auto;
+}
+
+.image {
+    width: 600px;
+    float: left;
+}
+
+.intro {
+    width: 600px;
+    float: right;
+    text-align: right;
+
+}
+
+.row {
+    overflow: hidden;
+    margin: 1.5em auto;
+    padding: 1.5em 10%;
+}
+
+.row .col {
+    float: left;
+    width: 30%;
+    margin-right: 2em;
+}
+
+.row .col:last-child {
+    float: right;
+    margin-right: 0;
+}
+
+
+.row .col h2 {
+    text-align: center;
+    width: 300px;
+}
+
+.row .col a {
+    color: #333;
+}
+
+.footer {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer-main {
+    color: #fff;
+    background-color: #2d2d2d;
+    overflow: auto;
+    padding: 0 2em 0 2em;
+    line-height: 1;
+}
+
+.about-us {
+    text-align: left;
+    float: left;
+    width: 400px;
+}
+
+.about-us h2 {
+    color: #ff6c00;
+}
+
+.contact-us {
+    text-align: right;
+    float: right;
+    width: 600px;
+}
+
+.contact-us h2 {
+    color: #ff6c00;
+}
+
+.footer-bottom {
+    background-color: #191919;
+    color: #88b77b;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.footer-bottom a {
+    color: #ff6c00;
+}
+
+.fa-facebook-square {
+    content: "\f082";
+}
+
+.login {
+    width: 30%;
+    margin: auto;
+    padding: 150px 0;
+}
+
+.login h2 {
+    color: #ff6c00;
+    text-align: center;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+.login b {
+        font-weight: bold;
+}

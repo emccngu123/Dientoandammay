@@ -1,0 +1,35 @@
+.detail {
+	padding-top: 2em;
+}
+
+.select {
+
+}
+
+.detail {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+
+}
+
+.detail table tr td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.detail table tr th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.detail table tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.create {
+	padding-top: 2em;
+}
